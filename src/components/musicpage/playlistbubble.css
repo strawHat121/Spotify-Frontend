@@ -1,0 +1,140 @@
+.playlistbubble-container{
+    background-color: #2D332E;
+    color: white;
+    width: 80vmin;
+    height: 50vmin;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.playlist-flexbox-false{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.playlist-flexbox-true{
+    display: none;
+    pointer-events: none;
+}
+
+.playlist-title{
+    font-size: 2.25vmax;
+    margin: 4vmin;
+}
+
+.playlist-input{
+    width: 75%;
+    height: 5vh;
+    outline: none;
+    font-size: 16px;
+    margin: 4vmin;
+}
+
+
+.playlistbubble-button{
+    border: none;
+    background-color: #1DB954;
+    color: white;
+    height: 4.5vh;
+    width: 40%;
+    font-size: 1.25vmax;
+    border-radius: 20px;
+    outline: none;
+    margin: 4vmin;
+    opacity: 1;
+    transition: .3s;
+}
+
+.playlistbubble-button:hover{
+    width: 50%;
+    background-color: #00cc44;
+}
+
+.playlistdone-flexbox-true{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    font-size: 2.25vmax;
+}
+
+.playlistdone-flexbox-false{
+    display: none;
+    pointer-events: none;
+}
+
+.images-flex{
+    border-radius: 10px;
+    position: relative;
+    width: 20vmin;
+    height: 20vmin;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.playlist-image{
+    height: 50%;
+}
+
+.playlist-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.spotify-logo{
+    width: 40px;
+}
+
+.playlist-created{
+}
+
+.option-container{
+    display: flex;
+    justify-content: space-between;
+    width: 32vmax;
+}
+
+.open-container{
+    background-color: #2D332E;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.75vmax;
+    height: 4vmax;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: .25vmax;
+    border-color: #6B796F;
+    font-size: 1.25vmax;
+    color: white;
+    transition: .3s;
+}
+
+.spotify-logo{
+    height: 3vmax;
+    width: 3vmax;
+}
+
+.twitter-logo{
+    height: 2.5vmax;
+    width: 3vmax;
+}
+
+.open-container:hover{
+    background-color: #6B796F;
+}
+
+.twitter-link{
+    text-decoration: none;
+}

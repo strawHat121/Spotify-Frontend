@@ -1,0 +1,52 @@
+.song-bubble{
+    background-color: #2D332E;
+    margin-bottom: 2vh;
+    width: 80vmin;
+    height: 5vh;
+    border-radius: 10px;
+    transition: .2s;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.song-bubble:hover{
+    background-color: #1DB954;
+}
+
+.album-art{
+    border-radius: 50%;
+    height: 75%;
+    margin: 5%;
+}
+
+.song-info-container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.song-title{
+    width: 100%;
+    height: 100%;
+    font-size: 2vh;
+    text-align: start;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.song-artist{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vh;
+    text-align: start;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    opacity: .4;
+    margin-top: 1%;
+}
