@@ -29,7 +29,7 @@ const WelcomePage = () => {
   }, []);
 
   const DEVOPMENTLINK = "http://localhost:8888/login";
-  const PRODUCTIONLINK = "https://www.preferify.app/login";
+  const PRODUCTIONLINK = "https://strawhat-spotify-backend.herokuapp.com/login";
 
   if (token !== undefined) {
     return <Redirect to={{ pathname: "/music", token: { token } }}></Redirect>;
